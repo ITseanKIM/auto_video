@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   description: "이야기에서 대본, 음성, 이미지와 영상까지 만드는 웹 스튜디오",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
